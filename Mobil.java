@@ -6,10 +6,10 @@ package Projek;
 
 /**
  *
- * @author JARKOM 15
+ * @author LENOVO
  */
 public class Mobil extends Kendaraan{
-    int JumlahPintu;
+     int JumlahPintu;
 
     public Mobil(int JumlahPintu, String NamaPemilik, String NomorPlat, String JenisKendaraan) {
         super(NamaPemilik, NomorPlat, JenisKendaraan);
@@ -26,6 +26,6 @@ public class Mobil extends Kendaraan{
     
     public void infoKendaraan(){
         super.infoKendaraan();
-        System.out.println("Jumlah Pintu Mobil" + getJumlahPintu() );
+        System.out.println("Jumlah Pintu Mobil: " + getJumlahPintu() );
     }
 }

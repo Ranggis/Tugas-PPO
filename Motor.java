@@ -6,7 +6,7 @@ package Projek;
 
 /**
  *
- * @author JARKOM 15
+ * @author LENOVO
  */
 public class Motor extends Kendaraan{
     boolean memilikibox;
@@ -18,6 +18,6 @@ public class Motor extends Kendaraan{
     
     public void infoKendaraan(){
         super.infoKendaraan();
-        System.out.println("Apakah Motor Memiliki Box" + (memilikibox? "Ya" : "Tidak"));
+        System.out.println("Apakah Motor Memiliki Box: " + (memilikibox? "Ya" : "Tidak"));
     }
 }

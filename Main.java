@@ -6,21 +6,27 @@ package Projek;
 
 /**
  *
- * @author JARKOM 15
+ * @author LENOVO
  */
 public class Main {
-    public static void main(String[] args) {
+       public static void main(String[] args) {
         //Membuat Objek Mobil
-        Mobil Avanza = new Mobil (4, "Ranggis", "B 12 CT", "Mobil");
+        Mobil BMW = new Mobil (4, "Andi", "B1234XYZ", "Mobil");
         System.out.println("=== Informasi Kendaraan ===");
-        Avanza.infoKendaraan();
-        Avanza.serviceKendaraan();
-        Avanza.serviceKendaraan("Ganti OLI");
+        BMW.infoKendaraan();
+        
+         // Membuat spasi agar output lebih rapi
+        System.out.println("\n");
         
         //Membuat Objek Motor
-        Motor Vario = new Motor (true, "Ranggis", "B 12 CT", "Motor");
+        Motor ZX25R = new Motor (true, "Budi", "D5678ABC", "Motor");
         System.out.println("=== Informasi Kendaraan ===");
-        Vario.infoKendaraan();
-        Vario.infoKendaraan();
+        ZX25R.infoKendaraan();
+        
+         // Membuat spasi agar output lebih rapi
+        System.out.println("\n");
+        
+        ZX25R.serviceKendaraan();
+        ZX25R.serviceKendaraan("Tune Up");
     }
 }

@@ -51,10 +51,10 @@ public class Kendaraan {
     }
     
     public void serviceKendaraan(){
-        System.out.println("Servis Kendaraan Sedang Di Lakukan");
+        System.out.println("Servis Kendaraan Sedang dilakukan.");
     }           
     
     public void serviceKendaraan(String JenisServis){
-        System.out.println("Servis Jenis " + JenisServis + " Sedang dilakukan");
+        System.out.println("Servis Jenis " + JenisServis + " Sedang dilakukan.");
     }
 }

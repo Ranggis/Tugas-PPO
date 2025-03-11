@@ -16,8 +16,9 @@ public class Motor extends Kendaraan{
         this.memilikibox = memilikibox;
     }
     
+    @Override
     public void infoKendaraan(){
         super.infoKendaraan();
-        System.out.println("Apakah Motor Memiliki Box: " + (memilikibox? "Ya" : "Tidak"));
+        System.out.println("Memiliki Box: " + (memilikibox? "Ya" : "Tidak"));
     }
 }

@@ -24,6 +24,7 @@ public class Mobil extends Kendaraan{
         this.JumlahPintu = JumlahPintu;
     }
     
+    @Override
     public void infoKendaraan(){
         super.infoKendaraan();
         System.out.println("Jumlah Pintu Mobil: " + getJumlahPintu() );
